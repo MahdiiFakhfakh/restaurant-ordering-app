@@ -1,0 +1,9 @@
+// src/api/menu.js
+export const getMenuItems = () => {
+  return Promise.resolve([
+    { id: 1, name: 'Margherita Pizza', price: 10 },
+    { id: 2, name: 'Spaghetti Carbonara', price: 12 },
+    { id: 3, name: 'Caesar Salad', price: 8 },
+    { id: 4, name: 'Tiramisu', price: 6 }
+  ])
+}
